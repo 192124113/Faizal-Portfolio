@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>color</title>
+    </head>
+    <style>
+        #main-div{
+            width: 500px;
+            height: 50px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <body>
+        <div id="main-div"></div>
+        <button onclick="changecolor('red')">red</button>
+        <button onclick="changecolor('green')">green</button>
+        <button onclick="changecolor('orange')">orange</button>
+        <button onclick="changecolor('blue')">blue</button>
+    </body>
+    <script>
+        function changecolor(val){
+            document.getElementById('main-div').style.backgroundColor=val;
+        }
+
+    </script>
+</html>

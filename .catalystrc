@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "19210000000010109",
+      "name": "Faizal-Portfolio",
+      "domain": {
+        "id": "50030020338",
+        "name": "faizal-portfolio-60044817648.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60044817648",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
