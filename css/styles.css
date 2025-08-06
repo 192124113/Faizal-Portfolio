@@ -12,3 +12,11 @@
 .skills-padding{
     padding: 70px 0;
 }
+
+.container-home{
+    padding: min(5em,8%);
+}
+
+.intro{
+    text-align: left;
+}
